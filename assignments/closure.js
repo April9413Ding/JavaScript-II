@@ -3,6 +3,19 @@
 // Keep it simple! Remember a closure is just a function
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
+function favoFruit () {
+  let fruit ="grape fruit";
+
+  function favo () {
+    let color = "Blue";
+    console.log(`My favourite fruit is ${fruit}.`)
+    console.log(`My favourite color is ${color}.`);
+  }
+  favo();
+}
+favoFruit();
+
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
